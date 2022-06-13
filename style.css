@@ -1,0 +1,104 @@
+*{
+    background-color: ghostwhite;
+background-color: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,233,0.5186449579831933) 100%);
+background-image: url("");
+ background-color: whitesmoke;
+}
+
+
+/* Style all input fields */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+   
+  }
+
+  .Male
+  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Style the container for inputs */
+  .container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+ 
+ h2{
+   
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: orange;
+        color: white;
+    
+  
+}
+  img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        border-radius: 50%;
+        
+      }
+      p{
+          text-align: center;
+      }
+      .contact{
+          text-align: center;
+          
+      }
+      .Info{
+          text-align: right;
+       margin-top: -40px;
+          
+      }
+
+      .Skills{
+        margin-top: -170px;
+        margin-bottom: 130px;
+        margin-right: 150px;
+        margin-left: 210px;
+        padding-top: -150px;
+      }
+      .Priorities{
+        margin-top: -282px;
+        margin-bottom: 130px;
+        margin-right: 150px;
+        margin-left: 420px;
+        padding-top: -150px;
+      }
+      .Others{
+        margin-top: -282px;
+        margin-bottom: 130px;
+        margin-right: 150px;
+        margin-left: 675px;
+        padding-top: -150px;
+      }
+    .Me{
+      text-align: center;
+      background-color: #04AA6D;
+       color: white;
+    }

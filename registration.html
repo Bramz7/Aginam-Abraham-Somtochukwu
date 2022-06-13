@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Registration</h2>
+    <form><label class="First Name" for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label class="Last Name" for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label class="Phone Number" for="lname">Phone Number:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label class="Gender" for="lname">Gender:</label><br>
+        <select class="Male">  
+            <option value = "Male"> Male 
+            </option>  
+            <option value = "Female"> Female  
+            </option>    
+            </select><br>
+        <label class="Country" for="fname">Country:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label class="State" for="lname">State/Province:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label class="Email" for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="psw">Password</label><br>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+        <label for="psw">Confirm Password</label><br>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+          <input type="submit" value="Submit">
+      </form><br>
+</div>
+</body>
+</html>
